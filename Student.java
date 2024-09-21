@@ -17,3 +17,15 @@ public Student() {
     this.major = "";
     this.GPA = 0.0;
 }
+
+public void displayInfo() {
+    System.out.println("Student Name: " + name);
+    System.out.println("Student ID: " + studentID);
+    System.out.println("Student Major: " + major);
+    System.out.println("Student GPA: " + GPA);
+    System.out.println();
+}
+
+public void updateGPA(double newGPA) {
+    this.GPA = newGPA;
+}
